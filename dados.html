@@ -1,0 +1,102 @@
+<html>
+  <head>
+    <title>Dados</title>
+    <link rel="icon" href="img/Dados_Logo.png"/>
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <link rel="stylesheet" type="text/css" href="dados.css" media="screen" />
+    <script src="dados.js"> </script>
+
+    <script src="menu.js"> </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </head>
+  <body>
+
+    <section>
+
+        <hr>
+            <h1 class="titulo_mapa"> Mapa | Autores por País de Formação e Nascimento</h1>
+        <hr class="margin_top_10">
+
+<br>
+        <center>
+            <div id="regions_div" class="mapa"></div>
+            <input onclick="pais()" type="submit" id="iniciar" value="País de Formação" class="botao"/>
+        </center>
+
+    </section>
+
+    <section>
+
+        <hr style="margin-top: 70px;">
+            <h1 class="titulo_mapa"> Mapa | Autores por Continente</h1>
+        <hr class="margin_top_10">
+
+<br>
+        <div>
+            <center><img src="imagens/Mapa_cont.png" class="mapa2"></center>
+        </div> 
+
+    </section>
+
+<br><br><br><br><br>
+
+    <section class="teste">
+        <div class="navegation">
+            <ul>
+                <li class="list">
+                    <a href="index.html">
+                        <span class="icon">
+                            <ion-icon name="home-outline"></ion-icon>
+                        </span>
+                        <span class="text"> INÍCIO </span>
+                    </a>
+                </li>
+                <li class="list active">
+                    <a href="dados.html">
+                        <span class="icon">
+                            <ion-icon name="stats-chart-outline"></ion-icon>
+                        </span>
+                        <span class="text"> DADOS </span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="analise.html">
+                        <span class="icon">
+                            <ion-icon name="receipt-outline"></ion-icon>
+                        </span>
+                        <span class="text"> ANÁLISE </span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="autor.html">
+                        <span class="icon">
+                            <ion-icon name="school-outline"></ion-icon>
+                        </span>
+                        <span class="text"> AUTOR </span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="fotos.html">
+                        <span class="icon">
+                            <ion-icon name="images-outline"></ion-icon>
+                        </span>
+                        <span class="text"> MUSEU </span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="sobre.html">
+                        <span class="icon">
+                            <ion-icon name="people-outline"></ion-icon>
+                        </span>
+                        <span class="text"> SOBRE NÓS </span>
+                    </a>
+                </li>
+                <div class="indicator"></div>
+            </ul>
+        </div>
+    </section>
+
+  </body>
+</html>
